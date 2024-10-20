@@ -1,0 +1,15 @@
+.BlogGallery {
+    display: flex;            /* Use flexbox layout */
+    flex-wrap: wrap;          /* Allow items to wrap to the next line */
+    gap: 20px;                /* Space between blog posts */
+    justify-content: center;  /* Center the blog posts within the container */
+    padding: 20px;            /* Add padding around the gallery */
+    background-color: #f1f1f1; /* Light background color for the gallery */
+    border-radius: 15px;      /* Rounded corners for the gallery container */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.BlogGallery .blog-post {
+    flex: 1 1 300px;          /* Blog posts should be flexible, but have a minimum width */
+    max-width: 400px;         /* Limit the maximum width of each blog post */
+}

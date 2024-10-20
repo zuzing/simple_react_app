@@ -1,0 +1,115 @@
+.blog-post {
+    border: 2px solid #ccc;   /* Light gray border */
+    border-radius: 15px;      /* Rounded corners */
+    padding: 20px;            /* Space inside the border */
+    margin: 20px 0;           /* Space outside the component */
+    background-color: #f9f9f9; /* Light background color */
+}
+
+.blog-details {
+    max-width: 800px;             /* Limit the width of the blog details container */
+    margin: 20px auto;            /* Center the container with some margin */
+    padding: 20px;                /* Add padding inside the container */
+    background-color: #f9f9f9;    /* Light grey background for the container */
+    border-radius: 8px;           /* Rounded corners for the container */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);  /* Subtle shadow for depth */
+}
+
+.blog-title {
+    font-size: 1.8rem;        /* Large title text */
+    margin-bottom: 10px;      /* Space below the title */
+    color: #333;              /* Darker text color */
+}
+
+.blog-body {
+    font-size: 1.2rem;        /* Normal body text size */
+    color: #555;              /* Medium-dark text color */
+    line-height: 1.6;         /* Comfortable line spacing */
+}
+
+.delete-button {
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 0.9em;
+    cursor: pointer;
+    border-radius: 5px;
+    top: 15px;
+    right: 15px;
+    transition: background-color 0.3s ease;
+}
+
+.delete-button:hover {
+    background-color: #ff1a1a;
+}
+
+.blog-title-input,
+.blog-body-input {
+    width: 100%;
+    margin-bottom: 20px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    font-size: 1.2rem;
+    background-color: #fff;
+}
+
+.blog-title-input {
+    height: 50px;
+    font-size: 1.5rem;
+}
+
+.blog-body-input {
+    height: 200px;
+    font-size: 1.2rem;
+    line-height: 1.6;         /* Comfortable line spacing */
+}
+
+.button-group {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+.save-button,
+.cancel-button {
+    padding: 10px 15px;
+    font-size: 0.9em;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+.save-button {
+    background-color: #4CAF50; /* Green background */
+    color: white;
+}
+
+.save-button:hover {
+    background-color: #45a049;
+}
+
+.cancel-button {
+    background-color: #ff4d4d; /* Red background */
+    color: white;
+}
+
+.cancel-button:hover {
+    background-color: #ff1a1a;
+}
+
+.edit-button {
+    padding: 10px 15px;
+    font-size: 0.9em;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+    background-color: #ffa500; /* Orange background */
+    color: white;
+    transition: background-color 0.3s ease;
+}
+
+.edit-button:hover {
+    background-color: #e69500; /* Slightly darker orange on hover */
+}
