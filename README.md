@@ -1,2 +1,2 @@
 ---
-Full-stack blog wall app with CRUD functionality. Built with React, Express.js, and MongoDB.
+Full-stack single-page app blog wall with CRUD functionality via an Express server and MongoDB database.
